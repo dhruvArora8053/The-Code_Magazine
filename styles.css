@@ -90,6 +90,7 @@ ol {
   padding-right: 40px; */
   padding: 20px 40px;
   margin-bottom: 60px;
+  height: 80px;
 }
 
 .post-header {
@@ -103,6 +104,7 @@ aside {
   /* padding-top: 50px;
   padding-bottom: 50px; */
   padding: 50px 0;
+  width: 500px;
 }
 
 /* pseudo-classess */
@@ -152,4 +154,9 @@ a:hover {
 a:active {
   background-color: black;
   font-style: italic;
+}
+
+.post-img{
+  width: 100%;
+  height: auto;
 }
