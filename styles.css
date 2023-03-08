@@ -1,3 +1,4 @@
+/* Day 1:- ////////////////////////////////////*/
 * {
   margin: 0;
   padding: 0;
@@ -97,7 +98,6 @@ ol {
   padding-right: 40px; */
   padding: 20px 40px;
   margin-bottom: 60px;
-  height: 80px;
 }
 
 .post-header {
@@ -166,4 +166,20 @@ a:active {
 .post-img {
   width: 100%;
   height: auto;
+}
+/* Day 1 finished /////////////////////////////*/
+
+/* Day 2:- /////////////////////////////////// */
+ nav a:link{
+  /* background-color: orangered; 
+  margin: 20px;
+  padding: 20px;
+  display: block; */
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 30px;
+}  
+
+nav a:link:last-child{
+  margin-right: 0;
 }
