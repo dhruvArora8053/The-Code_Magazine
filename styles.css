@@ -27,7 +27,6 @@ h3 {
 
 h1 {
   font-size: 26px;
-
   text-transform: uppercase;
   font-style: italic;
 }
@@ -193,4 +192,17 @@ nav a:link:last-child {
   position: absolute;
   bottom: 50px;
   right: 50px;
+}
+
+h1::first-letter{
+  font-style: normal;
+  margin-right: 5px;
+}
+
+h2::first-letter{
+  font-size: 80px;
+}
+
+p::first-line{
+  color: red;
 }
